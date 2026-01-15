@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link href={`/`} className="text-white">
           Home
         </Link>
-        <Link href={`/coach`} className="text-white">
+        <Link href={`/chat`} className="text-white">
           Coach
         </Link>
         <Link href={`/login`} className="btn-primary">
