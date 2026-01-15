@@ -20,7 +20,9 @@ const Navbar = () => {
         <Link href={`/coach`} className="text-white">
           Coach
         </Link>
-        <button className="btn-primary">Start Subscription</button>
+        <Link href={`/login`} className="btn-primary">
+          Start Subscription
+        </Link>
       </div>
       <div className="lg:hidden">
         {" "}

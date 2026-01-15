@@ -1,6 +1,7 @@
 import Image from "next/image";
 import heroBg from "../../../../public/hero.png";
 import { League_Gothic, Montserrat } from "next/font/google";
+import Link from "next/link";
 const gothic = League_Gothic({
   subsets: ["latin"],
 });
@@ -30,7 +31,9 @@ export default function Banner() {
           at your fingertips.
         </p>
         <div className="space-y-3 lg:space-y-0 lg:flex items-center gap-3 justify-center">
-          <h3 className="btn-primary">Start Subscription</h3>
+          <Link href={`/login`} className="btn-primary">
+            Start Subscription
+          </Link>
           <h3 className="btn-secondary">Chat with OP Coach Now</h3>
         </div>
       </div>
