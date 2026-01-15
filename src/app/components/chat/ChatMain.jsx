@@ -5,6 +5,7 @@ import { Settings, Paperclip, ArrowUp } from "lucide-react";
 import Image from "next/image";
 import waterMark from "../../../../public/waterLogo.png";
 import { League_Gothic } from "next/font/google";
+import Link from "next/link";
 const gothic = League_Gothic({ subsets: ["latin"] });
 const ChatMain = () => {
   return (
@@ -13,10 +14,13 @@ const ChatMain = () => {
       <header className="flex justify-between items-center p-6 relative z-10">
         {/* Right Icon */}
         <div className="ml-auto">
-          <Settings
-            className="text-gray-400 hover:text-white cursor-pointer transition-colors"
-            size={24}
-          />
+          <Link href={`/chat/settings`}>
+            {" "}
+            <Settings
+              className="text-gray-400 hover:text-white cursor-pointer transition-colors"
+              size={24}
+            />
+          </Link>
         </div>
       </header>
 

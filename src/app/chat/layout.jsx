@@ -15,7 +15,7 @@ const ChatLayout = ({ children }) => {
       />
 
       <div className="flex justify-between w-full mx-auto px-4 lg:px-0">
-        <nav>
+        <nav className="">
           <Sidebar />
         </nav>
         <main className="lg:w-9/12">{children}</main>

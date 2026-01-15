@@ -46,7 +46,7 @@ const Sidebar = () => {
 
         {/* Start New Chat Button */}
         <Link
-          href={`/`}
+          href={`/chat`}
           className="w-full bg-[#2A2A2A] hover:bg-[#333] text-gray-200 py-3 px-4 rounded-lg flex items-center gap-3 transition-colors mb-6 text-sm font-medium"
         >
           <PlusCircle size={18} color="white" />
@@ -72,7 +72,7 @@ const Sidebar = () => {
             </h3>
             <div className="flex flex-col space-y-4">
               <Link
-                href={`chat/journal`}
+                href={`/chat/journal`}
                 className="text-gray-400 text-sm hover:text-white cursor-pointer px-2 transition-colors"
               >
                 Journal
