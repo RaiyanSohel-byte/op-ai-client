@@ -29,9 +29,9 @@ export default function Banner() {
           Experience the one-of-a-kind AI mental performance and wellness coach
           at your fingertips.
         </p>
-        <div className="space-y-3 lg:flex items-center gap-3 justify-center">
-          <button className="btn-primary">Start Subscription</button>
-          <button className="btn-secondary">Chat with OP Coach Now</button>
+        <div className="space-y-3 lg:space-y-0 lg:flex items-center gap-3 justify-center">
+          <h3 className="btn-primary">Start Subscription</h3>
+          <h3 className="btn-secondary">Chat with OP Coach Now</h3>
         </div>
       </div>
     </section>

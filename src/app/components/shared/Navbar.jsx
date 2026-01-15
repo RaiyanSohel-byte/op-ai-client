@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import logo from "../../../../public/logo.png";
 import Link from "next/link";
+import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   return (
     <nav className="absolute top-0 left-0 right-0 w-full z-50 flex items-center justify-between max-w-7xl mx-auto py-12 px-4 lg:px-0">
@@ -20,6 +21,10 @@ const Navbar = () => {
           Coach
         </Link>
         <button className="btn-primary">Start Subscription</button>
+      </div>
+      <div className="lg:hidden">
+        {" "}
+        <MobileMenu />
       </div>
     </nav>
   );

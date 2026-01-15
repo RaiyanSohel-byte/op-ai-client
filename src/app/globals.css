@@ -14,3 +14,6 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.head-badge {
+  @apply border border-[#DBD0A6] rounded-lg p-4 text-white font-medium flex items-center gap-2 w-fit text-[20px];
+}
